@@ -88,3 +88,8 @@ h1 span {
 	font-size: 20px;
 	z-index: 100;
 }
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 2s ease-out;
+}
