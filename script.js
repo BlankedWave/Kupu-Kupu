@@ -26,3 +26,9 @@ const pc = butterfliesBackground({
   maxVelocity: 0.1
 })
 
+setTimeout(() => {
+  const text = document.getElementById('fadeText');
+  if (text) {
+    text.classList.add('fade-out');
+  }
+}, 4500); // 5000ms = 5s
